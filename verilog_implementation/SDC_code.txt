@@ -1,0 +1,5 @@
+create_clock -name {clk} -period 350.000 -waveform {0.000 175.00} [get_ports {clk}]
+
+set_input_delay -clock { clk } -add_delay 0.5 [get_ports {k[0] k[1] k[2] sample_in1[0] sample_in1[1] sample_in1[2] sample_in1[3] sample_in1[4] sample_in[0] sample_in[1] sample_in[2] sample_in[3] sample_in[4]}]
+
+set_output_delay -clock { clk } -add_delay 0.5 [get_ports {led_out0 led_out1}]
