@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14898042.svg)](https://doi.org/10.5281/zenodo.14898042)
+
 # FPGA-Based Hardware Accelerator for K-Nearest Neighbors (KNN)
 
 ## Overview
